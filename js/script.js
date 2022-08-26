@@ -11,6 +11,8 @@ const gamePage = document.querySelector('.game-wrapper')
 const ancientInGame = document.querySelector('.ancient-in-game')
 const chosenDiff = document.querySelector('.chosen-difficulty')
 const cardCounter = document.querySelectorAll('.counter')
+const backgroundCard = document.querySelector('.background-card')
+const playedCard = document.querySelector('.play-card')
 
 startBtn.addEventListener('click', () => {
   body.style.background = 'black'

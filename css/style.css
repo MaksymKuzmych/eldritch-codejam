@@ -191,11 +191,12 @@ body {
 
 .counter {
   width: 25%;
-  height: 30px;
+  height: 100%;
   border: none;
   border-radius: 10px;
   color: white;
   font-size: 2vw;
+  text-align: center;
 }
 
 .green-cards {

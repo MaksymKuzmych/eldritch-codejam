@@ -13,6 +13,7 @@ const chosenDiff = document.querySelector('.chosen-difficulty')
 const cardCounter = document.querySelectorAll('.counter')
 const backgroundCard = document.querySelector('.background-card')
 const playedCard = document.querySelector('.play-card')
+const stageTitles = document.querySelectorAll('.stage-title')
 
 startBtn.addEventListener('click', () => {
   body.style.background = 'black'

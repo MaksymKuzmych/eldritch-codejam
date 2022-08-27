@@ -90,10 +90,13 @@ backgroundCard.addEventListener('click', () => {
     revealCards(firstStageArr, 0)
   } else if (secondStageArr.length > 0) {
     revealCards(secondStageArr, 3)
+    stageTitles[0].style.color = 'Red'
   } else if (thirdStageArr.length > 0) {
     revealCards(thirdStageArr, 6)
+    stageTitles[1].style.color = 'Red'
   } else {
     playedCard.style.opacity = 0
+    stageTitles[2].style.color = 'Red'
     alert('The cards are out')
   }
 })

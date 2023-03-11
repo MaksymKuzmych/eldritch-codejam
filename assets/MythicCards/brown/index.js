@@ -42,6 +42,6 @@ const cards = {
   brown19,
   brown20,
   brown21,
-}
+};
 
-export default cards
+export default cards;
